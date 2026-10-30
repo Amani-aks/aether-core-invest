@@ -26,7 +26,6 @@ export default function Sidebar() {
         </div>
         <div className="hidden lg:block min-w-0">
           <p className="text-sm font-bold tracking-[0.15em] text-foreground/95">ÆTHER X</p>
-          <p className="text-[9px] text-muted-foreground/60 tracking-[0.25em] uppercase font-medium">Investera</p>
         </div>
       </div>
 
