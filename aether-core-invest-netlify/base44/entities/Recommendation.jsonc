@@ -1,0 +1,41 @@
+{
+  "name": "Recommendation",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "issue": {
+      "type": "string"
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "expected_benefit": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending_review",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending_review"
+    },
+    "category": {
+      "type": "string"
+    },
+    "effort": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "issue",
+    "recommendation"
+  ]
+}
