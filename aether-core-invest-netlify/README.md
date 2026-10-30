@@ -32,6 +32,14 @@ Run the app: `npm run dev`
 
 Open [Base44.com](http://Base44.com) and click on Publish.
 
+**Deploy on Netlify**
+
+The repository-root `netlify.toml` sets the base directory to
+`aether-core-invest-netlify`, where this app's `package.json` lives. Netlify
+installs dependencies and runs `npm run build` from that directory, then
+publishes its `dist` folder. The SPA redirect serves client-side routes through
+`index.html`.
+
 **Docs & Support**
 
 Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
